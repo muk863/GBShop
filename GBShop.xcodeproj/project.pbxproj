@@ -99,13 +99,10 @@
 		3D822B6D27965609007CEDF5 /* GBShop */ = {
 			isa = PBXGroup;
 			children = (
-				3D822B6E27965609007CEDF5 /* AppDelegate.swift */,
-				3D822B7027965609007CEDF5 /* SceneDelegate.swift */,
-				3D822B7227965609007CEDF5 /* ViewController.swift */,
-				3D822B7427965609007CEDF5 /* Main.storyboard */,
-				3D822B772796560A007CEDF5 /* Assets.xcassets */,
-				3D822B792796560A007CEDF5 /* LaunchScreen.storyboard */,
-				3D822B7C2796560A007CEDF5 /* Info.plist */,
+				3D822B9E27965BC2007CEDF5 /* App */,
+				3D822BA327965C2F007CEDF5 /* Core */,
+				3D822BA427965C45007CEDF5 /* Resources */,
+				3D822BA527965C58007CEDF5 /* Environments */,
 			);
 			path = GBShop;
 			sourceTree = "<group>";
@@ -125,6 +122,73 @@
 				3D822B912796560A007CEDF5 /* GBShopUITestsLaunchTests.swift */,
 			);
 			path = GBShopUITests;
+			sourceTree = "<group>";
+		};
+		3D822B9E27965BC2007CEDF5 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				3D822B6E27965609007CEDF5 /* AppDelegate.swift */,
+				3D822B7027965609007CEDF5 /* SceneDelegate.swift */,
+				3D822B9F27965BD6007CEDF5 /* BusinessLogic */,
+				3D822BA027965BE1007CEDF5 /* Entity */,
+				3D822BA127965BE9007CEDF5 /* Assembly */,
+				3D822BA227965BF9007CEDF5 /* Flows */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		3D822B9F27965BD6007CEDF5 /* BusinessLogic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = BusinessLogic;
+			sourceTree = "<group>";
+		};
+		3D822BA027965BE1007CEDF5 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		3D822BA127965BE9007CEDF5 /* Assembly */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Assembly;
+			sourceTree = "<group>";
+		};
+		3D822BA227965BF9007CEDF5 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				3D822B7227965609007CEDF5 /* ViewController.swift */,
+				3D822B7427965609007CEDF5 /* Main.storyboard */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		3D822BA327965C2F007CEDF5 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3D822BA427965C45007CEDF5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3D822B772796560A007CEDF5 /* Assets.xcassets */,
+				3D822B792796560A007CEDF5 /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		3D822BA527965C58007CEDF5 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				3D822B7C2796560A007CEDF5 /* Info.plist */,
+			);
+			path = Environments;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -441,7 +505,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5CJLGV2VHN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = GBShop/Environments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -469,7 +533,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 5CJLGV2VHN;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = GBShop/Info.plist;
+				INFOPLIST_FILE = GBShop/Environments/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
