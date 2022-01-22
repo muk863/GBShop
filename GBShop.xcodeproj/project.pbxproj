@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D6374E0279C2DE100493927 /* DefaultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6374DF279C2DE100493927 /* DefaultResponse.swift */; };
+		3D6374E2279C2E1000493927 /* CatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6374E1279C2E1000493927 /* CatalogResponse.swift */; };
+		3D6374E4279C2E3100493927 /* GoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6374E3279C2E3100493927 /* GoodResponse.swift */; };
 		3D822B6F27965609007CEDF5 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822B6E27965609007CEDF5 /* AppDelegate.swift */; };
 		3D822B7127965609007CEDF5 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822B7027965609007CEDF5 /* SceneDelegate.swift */; };
 		3D822B7327965609007CEDF5 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822B7227965609007CEDF5 /* ViewController.swift */; };
@@ -40,7 +43,6 @@
 		3D822BD427966ADC007CEDF5 /* GetGoodRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BD327966ADC007CEDF5 /* GetGoodRequestFactory.swift */; };
 		3D822BD627966B04007CEDF5 /* GetCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BD527966B04007CEDF5 /* GetCatalog.swift */; };
 		3D822BD827966B21007CEDF5 /* GetGood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BD727966B21007CEDF5 /* GetGood.swift */; };
-		3D822BDA27966B5E007CEDF5 /* Catalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BD927966B5E007CEDF5 /* Catalog.swift */; };
 		3D822BDC27966B73007CEDF5 /* Good.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BDB27966B73007CEDF5 /* Good.swift */; };
 /* End PBXBuildFile section */
 
@@ -62,6 +64,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D6374DF279C2DE100493927 /* DefaultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultResponse.swift; sourceTree = "<group>"; };
+		3D6374E1279C2E1000493927 /* CatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogResponse.swift; sourceTree = "<group>"; };
+		3D6374E3279C2E3100493927 /* GoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodResponse.swift; sourceTree = "<group>"; };
 		3D822B6B27965609007CEDF5 /* GBShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GBShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D822B6E27965609007CEDF5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D822B7027965609007CEDF5 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,7 +103,6 @@
 		3D822BD327966ADC007CEDF5 /* GetGoodRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGoodRequestFactory.swift; sourceTree = "<group>"; };
 		3D822BD527966B04007CEDF5 /* GetCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCatalog.swift; sourceTree = "<group>"; };
 		3D822BD727966B21007CEDF5 /* GetGood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGood.swift; sourceTree = "<group>"; };
-		3D822BD927966B5E007CEDF5 /* Catalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Catalog.swift; sourceTree = "<group>"; };
 		3D822BDB27966B73007CEDF5 /* Good.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Good.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -203,11 +207,13 @@
 			isa = PBXGroup;
 			children = (
 				3D822BB827966080007CEDF5 /* LoginResult.swift */,
+				3D6374DF279C2DE100493927 /* DefaultResponse.swift */,
+				3D6374E1279C2E1000493927 /* CatalogResponse.swift */,
+				3D6374E3279C2E3100493927 /* GoodResponse.swift */,
 				3D822BBA27966093007CEDF5 /* LogoutResult.swift */,
 				3D822BBC279660A4007CEDF5 /* SignupResult.swift */,
 				3D822BBE279660C1007CEDF5 /* ChangeUserDataResult.swift */,
 				3D822BC0279660D7007CEDF5 /* User.swift */,
-				3D822BD927966B5E007CEDF5 /* Catalog.swift */,
 				3D822BDB27966B73007CEDF5 /* Good.swift */,
 			);
 			path = Entity;
@@ -422,7 +428,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D822BDC27966B73007CEDF5 /* Good.swift in Sources */,
-				3D822BDA27966B5E007CEDF5 /* Catalog.swift in Sources */,
+				3D6374E4279C2E3100493927 /* GoodResponse.swift in Sources */,
 				3D822B7327965609007CEDF5 /* ViewController.swift in Sources */,
 				3D822BAB27965FA0007CEDF5 /* ChangeUserDataRequestFactory.swift in Sources */,
 				3D822BA927965F8D007CEDF5 /* SignupRequestFactory.swift in Sources */,
@@ -439,10 +445,12 @@
 				3D822BB927966080007CEDF5 /* LoginResult.swift in Sources */,
 				3D822BBD279660A4007CEDF5 /* SignupResult.swift in Sources */,
 				3D822BB327966002007CEDF5 /* RequestFactory.swift in Sources */,
+				3D6374E2279C2E1000493927 /* CatalogResponse.swift in Sources */,
 				3D822BC627966119007CEDF5 /* ErrorParser.swift in Sources */,
 				3D822BD427966ADC007CEDF5 /* GetGoodRequestFactory.swift in Sources */,
 				3D822BA727965F7A007CEDF5 /* AuthRequestFactory.swift in Sources */,
 				3D822BCC27966156007CEDF5 /* RequestRouter.swift in Sources */,
+				3D6374E0279C2DE100493927 /* DefaultResponse.swift in Sources */,
 				3D822BB127965FEE007CEDF5 /* ChangeUserData.swift in Sources */,
 				3D822B7127965609007CEDF5 /* SceneDelegate.swift in Sources */,
 				3D822BC427966108007CEDF5 /* AbstractErrorParser.swift in Sources */,
