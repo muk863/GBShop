@@ -6,6 +6,7 @@
 //
 
 import XCTest
+import Alamofire
 @testable import GBShop
 
 class GBShopTests: XCTestCase {
