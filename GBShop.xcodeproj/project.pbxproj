@@ -11,6 +11,10 @@
 		3D59F14E27A19DA200D2E201 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59F14D27A19DA200D2E201 /* Reviews.swift */; };
 		3D59F15027A19E2800D2E201 /* ReviewResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59F14F27A19E2800D2E201 /* ReviewResponse.swift */; };
 		3D59F15227A19E5200D2E201 /* ReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59F15127A19E5200D2E201 /* ReviewRequest.swift */; };
+		3D61CC7927A98225006E32E4 /* CartRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61CC7827A98225006E32E4 /* CartRequestFactory.swift */; };
+		3D61CC7B27A9826C006E32E4 /* Cart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61CC7A27A9826C006E32E4 /* Cart.swift */; };
+		3D61CC7D27A982E3006E32E4 /* CartRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61CC7C27A982E3006E32E4 /* CartRequest.swift */; };
+		3D61CC7F27A982FD006E32E4 /* CartResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D61CC7E27A982FD006E32E4 /* CartResponse.swift */; };
 		3D6374E0279C2DE100493927 /* DefaultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6374DF279C2DE100493927 /* DefaultResponse.swift */; };
 		3D6374E2279C2E1000493927 /* CatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6374E1279C2E1000493927 /* CatalogResponse.swift */; };
 		3D6374E4279C2E3100493927 /* GoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6374E3279C2E3100493927 /* GoodResponse.swift */; };
@@ -30,8 +34,6 @@
 		3D822BB127965FEE007CEDF5 /* ChangeUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BB027965FEE007CEDF5 /* ChangeUserData.swift */; };
 		3D822BB327966002007CEDF5 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BB227966002007CEDF5 /* RequestFactory.swift */; };
 		3D822BB727966059007CEDF5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D822BB627966059007CEDF5 /* Alamofire */; };
-		3D822BBB27966093007CEDF5 /* LogoutResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BBA27966093007CEDF5 /* LogoutResult.swift */; };
-		3D822BBD279660A4007CEDF5 /* SignupResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BBC279660A4007CEDF5 /* SignupResult.swift */; };
 		3D822BBF279660C1007CEDF5 /* ChangeUserDataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BBE279660C1007CEDF5 /* ChangeUserDataResult.swift */; };
 		3D822BC1279660D7007CEDF5 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BC0279660D7007CEDF5 /* User.swift */; };
 		3D822BC427966108007CEDF5 /* AbstractErrorParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BC327966108007CEDF5 /* AbstractErrorParser.swift */; };
@@ -69,6 +71,10 @@
 		3D59F14D27A19DA200D2E201 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
 		3D59F14F27A19E2800D2E201 /* ReviewResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewResponse.swift; sourceTree = "<group>"; };
 		3D59F15127A19E5200D2E201 /* ReviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRequest.swift; sourceTree = "<group>"; };
+		3D61CC7827A98225006E32E4 /* CartRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRequestFactory.swift; sourceTree = "<group>"; };
+		3D61CC7A27A9826C006E32E4 /* Cart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cart.swift; sourceTree = "<group>"; };
+		3D61CC7C27A982E3006E32E4 /* CartRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartRequest.swift; sourceTree = "<group>"; };
+		3D61CC7E27A982FD006E32E4 /* CartResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CartResponse.swift; sourceTree = "<group>"; };
 		3D6374DF279C2DE100493927 /* DefaultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultResponse.swift; sourceTree = "<group>"; };
 		3D6374E1279C2E1000493927 /* CatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogResponse.swift; sourceTree = "<group>"; };
 		3D6374E3279C2E3100493927 /* GoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodResponse.swift; sourceTree = "<group>"; };
@@ -91,8 +97,6 @@
 		3D822BAE27965FC7007CEDF5 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		3D822BB027965FEE007CEDF5 /* ChangeUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserData.swift; sourceTree = "<group>"; };
 		3D822BB227966002007CEDF5 /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
-		3D822BBA27966093007CEDF5 /* LogoutResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutResult.swift; sourceTree = "<group>"; };
-		3D822BBC279660A4007CEDF5 /* SignupResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupResult.swift; sourceTree = "<group>"; };
 		3D822BBE279660C1007CEDF5 /* ChangeUserDataResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserDataResult.swift; sourceTree = "<group>"; };
 		3D822BC0279660D7007CEDF5 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		3D822BC327966108007CEDF5 /* AbstractErrorParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbstractErrorParser.swift; sourceTree = "<group>"; };
@@ -208,12 +212,12 @@
 			isa = PBXGroup;
 			children = (
 				3D6374DF279C2DE100493927 /* DefaultResponse.swift */,
+				3D61CC7C27A982E3006E32E4 /* CartRequest.swift */,
+				3D61CC7E27A982FD006E32E4 /* CartResponse.swift */,
 				3D59F14F27A19E2800D2E201 /* ReviewResponse.swift */,
 				3D59F15127A19E5200D2E201 /* ReviewRequest.swift */,
 				3D6374E1279C2E1000493927 /* CatalogResponse.swift */,
 				3D6374E3279C2E3100493927 /* GoodResponse.swift */,
-				3D822BBA27966093007CEDF5 /* LogoutResult.swift */,
-				3D822BBC279660A4007CEDF5 /* SignupResult.swift */,
 				3D822BBE279660C1007CEDF5 /* ChangeUserDataResult.swift */,
 				3D822BC0279660D7007CEDF5 /* User.swift */,
 			);
@@ -269,6 +273,7 @@
 				3D822BAA27965FA0007CEDF5 /* ChangeUserDataRequestFactory.swift */,
 				3D822BD127966ABC007CEDF5 /* GetCatalogRequestFactory.swift */,
 				3D59F14B27A19D5500D2E201 /* ReviewRequestFactory.swift */,
+				3D61CC7827A98225006E32E4 /* CartRequestFactory.swift */,
 				3D822BD327966ADC007CEDF5 /* GetGoodRequestFactory.swift */,
 				3D822BAC27965FB0007CEDF5 /* Auth.swift */,
 				3D822BAE27965FC7007CEDF5 /* Signup.swift */,
@@ -276,6 +281,7 @@
 				3D822BD527966B04007CEDF5 /* GetCatalog.swift */,
 				3D822BD727966B21007CEDF5 /* GetGood.swift */,
 				3D59F14D27A19DA200D2E201 /* Reviews.swift */,
+				3D61CC7A27A9826C006E32E4 /* Cart.swift */,
 				3D822BB227966002007CEDF5 /* RequestFactory.swift */,
 			);
 			path = Network;
@@ -438,15 +444,17 @@
 				3D822B6F27965609007CEDF5 /* AppDelegate.swift in Sources */,
 				3D822BAD27965FB0007CEDF5 /* Auth.swift in Sources */,
 				3D822BAF27965FC7007CEDF5 /* Signup.swift in Sources */,
+				3D61CC7F27A982FD006E32E4 /* CartResponse.swift in Sources */,
 				3D59F15227A19E5200D2E201 /* ReviewRequest.swift in Sources */,
 				3D822BC827966129007CEDF5 /* ResponseCodable.swift in Sources */,
+				3D61CC7927A98225006E32E4 /* CartRequestFactory.swift in Sources */,
 				3D822BCA27966143007CEDF5 /* AbstractRequestFactory.swift in Sources */,
 				3D822BD827966B21007CEDF5 /* GetGood.swift in Sources */,
-				3D822BBB27966093007CEDF5 /* LogoutResult.swift in Sources */,
 				3D822BC1279660D7007CEDF5 /* User.swift in Sources */,
+				3D61CC7B27A9826C006E32E4 /* Cart.swift in Sources */,
 				3D822BD227966ABC007CEDF5 /* GetCatalogRequestFactory.swift in Sources */,
 				3D59F15027A19E2800D2E201 /* ReviewResponse.swift in Sources */,
-				3D822BBD279660A4007CEDF5 /* SignupResult.swift in Sources */,
+				3D61CC7D27A982E3006E32E4 /* CartRequest.swift in Sources */,
 				3D822BB327966002007CEDF5 /* RequestFactory.swift in Sources */,
 				3D6374E2279C2E1000493927 /* CatalogResponse.swift in Sources */,
 				3D59F14C27A19D5500D2E201 /* ReviewRequestFactory.swift in Sources */,
