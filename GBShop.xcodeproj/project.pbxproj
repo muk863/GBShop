@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D59F14C27A19D5500D2E201 /* ReviewRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59F14B27A19D5500D2E201 /* ReviewRequestFactory.swift */; };
+		3D59F14E27A19DA200D2E201 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59F14D27A19DA200D2E201 /* Reviews.swift */; };
+		3D59F15027A19E2800D2E201 /* ReviewResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59F14F27A19E2800D2E201 /* ReviewResponse.swift */; };
+		3D59F15227A19E5200D2E201 /* ReviewRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D59F15127A19E5200D2E201 /* ReviewRequest.swift */; };
 		3D6374E0279C2DE100493927 /* DefaultResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6374DF279C2DE100493927 /* DefaultResponse.swift */; };
 		3D6374E2279C2E1000493927 /* CatalogResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6374E1279C2E1000493927 /* CatalogResponse.swift */; };
 		3D6374E4279C2E3100493927 /* GoodResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D6374E3279C2E3100493927 /* GoodResponse.swift */; };
@@ -16,7 +20,6 @@
 		3D822B7627965609007CEDF5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D822B7427965609007CEDF5 /* Main.storyboard */; };
 		3D822B782796560A007CEDF5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3D822B772796560A007CEDF5 /* Assets.xcassets */; };
 		3D822B7B2796560A007CEDF5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D822B792796560A007CEDF5 /* LaunchScreen.storyboard */; };
-		3D822B862796560A007CEDF5 /* GBShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822B852796560A007CEDF5 /* GBShopTests.swift */; };
 		3D822B902796560A007CEDF5 /* GBShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822B8F2796560A007CEDF5 /* GBShopUITests.swift */; };
 		3D822B922796560A007CEDF5 /* GBShopUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822B912796560A007CEDF5 /* GBShopUITestsLaunchTests.swift */; };
 		3D822BA727965F7A007CEDF5 /* AuthRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BA627965F7A007CEDF5 /* AuthRequestFactory.swift */; };
@@ -27,7 +30,6 @@
 		3D822BB127965FEE007CEDF5 /* ChangeUserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BB027965FEE007CEDF5 /* ChangeUserData.swift */; };
 		3D822BB327966002007CEDF5 /* RequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BB227966002007CEDF5 /* RequestFactory.swift */; };
 		3D822BB727966059007CEDF5 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 3D822BB627966059007CEDF5 /* Alamofire */; };
-		3D822BB927966080007CEDF5 /* LoginResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BB827966080007CEDF5 /* LoginResult.swift */; };
 		3D822BBB27966093007CEDF5 /* LogoutResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BBA27966093007CEDF5 /* LogoutResult.swift */; };
 		3D822BBD279660A4007CEDF5 /* SignupResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BBC279660A4007CEDF5 /* SignupResult.swift */; };
 		3D822BBF279660C1007CEDF5 /* ChangeUserDataResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BBE279660C1007CEDF5 /* ChangeUserDataResult.swift */; };
@@ -43,7 +45,6 @@
 		3D822BD427966ADC007CEDF5 /* GetGoodRequestFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BD327966ADC007CEDF5 /* GetGoodRequestFactory.swift */; };
 		3D822BD627966B04007CEDF5 /* GetCatalog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BD527966B04007CEDF5 /* GetCatalog.swift */; };
 		3D822BD827966B21007CEDF5 /* GetGood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BD727966B21007CEDF5 /* GetGood.swift */; };
-		3D822BDC27966B73007CEDF5 /* Good.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D822BDB27966B73007CEDF5 /* Good.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +65,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3D59F14B27A19D5500D2E201 /* ReviewRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRequestFactory.swift; sourceTree = "<group>"; };
+		3D59F14D27A19DA200D2E201 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		3D59F14F27A19E2800D2E201 /* ReviewResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewResponse.swift; sourceTree = "<group>"; };
+		3D59F15127A19E5200D2E201 /* ReviewRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewRequest.swift; sourceTree = "<group>"; };
 		3D6374DF279C2DE100493927 /* DefaultResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultResponse.swift; sourceTree = "<group>"; };
 		3D6374E1279C2E1000493927 /* CatalogResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CatalogResponse.swift; sourceTree = "<group>"; };
 		3D6374E3279C2E3100493927 /* GoodResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoodResponse.swift; sourceTree = "<group>"; };
@@ -76,7 +81,6 @@
 		3D822B7A2796560A007CEDF5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3D822B7C2796560A007CEDF5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D822B812796560A007CEDF5 /* GBShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		3D822B852796560A007CEDF5 /* GBShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopTests.swift; sourceTree = "<group>"; };
 		3D822B8B2796560A007CEDF5 /* GBShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GBShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D822B8F2796560A007CEDF5 /* GBShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITests.swift; sourceTree = "<group>"; };
 		3D822B912796560A007CEDF5 /* GBShopUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GBShopUITestsLaunchTests.swift; sourceTree = "<group>"; };
@@ -87,7 +91,6 @@
 		3D822BAE27965FC7007CEDF5 /* Signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Signup.swift; sourceTree = "<group>"; };
 		3D822BB027965FEE007CEDF5 /* ChangeUserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserData.swift; sourceTree = "<group>"; };
 		3D822BB227966002007CEDF5 /* RequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestFactory.swift; sourceTree = "<group>"; };
-		3D822BB827966080007CEDF5 /* LoginResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginResult.swift; sourceTree = "<group>"; };
 		3D822BBA27966093007CEDF5 /* LogoutResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogoutResult.swift; sourceTree = "<group>"; };
 		3D822BBC279660A4007CEDF5 /* SignupResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupResult.swift; sourceTree = "<group>"; };
 		3D822BBE279660C1007CEDF5 /* ChangeUserDataResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChangeUserDataResult.swift; sourceTree = "<group>"; };
@@ -103,7 +106,6 @@
 		3D822BD327966ADC007CEDF5 /* GetGoodRequestFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGoodRequestFactory.swift; sourceTree = "<group>"; };
 		3D822BD527966B04007CEDF5 /* GetCatalog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCatalog.swift; sourceTree = "<group>"; };
 		3D822BD727966B21007CEDF5 /* GetGood.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetGood.swift; sourceTree = "<group>"; };
-		3D822BDB27966B73007CEDF5 /* Good.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Good.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -166,7 +168,6 @@
 		3D822B842796560A007CEDF5 /* GBShopTests */ = {
 			isa = PBXGroup;
 			children = (
-				3D822B852796560A007CEDF5 /* GBShopTests.swift */,
 				3D822BCD27966A37007CEDF5 /* ResponseCodableTests.swift */,
 				3D822BCF27966A57007CEDF5 /* RequestsTests.swift */,
 			);
@@ -206,15 +207,15 @@
 		3D822BA027965BE1007CEDF5 /* Entity */ = {
 			isa = PBXGroup;
 			children = (
-				3D822BB827966080007CEDF5 /* LoginResult.swift */,
 				3D6374DF279C2DE100493927 /* DefaultResponse.swift */,
+				3D59F14F27A19E2800D2E201 /* ReviewResponse.swift */,
+				3D59F15127A19E5200D2E201 /* ReviewRequest.swift */,
 				3D6374E1279C2E1000493927 /* CatalogResponse.swift */,
 				3D6374E3279C2E3100493927 /* GoodResponse.swift */,
 				3D822BBA27966093007CEDF5 /* LogoutResult.swift */,
 				3D822BBC279660A4007CEDF5 /* SignupResult.swift */,
 				3D822BBE279660C1007CEDF5 /* ChangeUserDataResult.swift */,
 				3D822BC0279660D7007CEDF5 /* User.swift */,
-				3D822BDB27966B73007CEDF5 /* Good.swift */,
 			);
 			path = Entity;
 			sourceTree = "<group>";
@@ -267,12 +268,14 @@
 				3D822BA827965F8D007CEDF5 /* SignupRequestFactory.swift */,
 				3D822BAA27965FA0007CEDF5 /* ChangeUserDataRequestFactory.swift */,
 				3D822BD127966ABC007CEDF5 /* GetCatalogRequestFactory.swift */,
+				3D59F14B27A19D5500D2E201 /* ReviewRequestFactory.swift */,
 				3D822BD327966ADC007CEDF5 /* GetGoodRequestFactory.swift */,
 				3D822BAC27965FB0007CEDF5 /* Auth.swift */,
 				3D822BAE27965FC7007CEDF5 /* Signup.swift */,
 				3D822BB027965FEE007CEDF5 /* ChangeUserData.swift */,
 				3D822BD527966B04007CEDF5 /* GetCatalog.swift */,
 				3D822BD727966B21007CEDF5 /* GetGood.swift */,
+				3D59F14D27A19DA200D2E201 /* Reviews.swift */,
 				3D822BB227966002007CEDF5 /* RequestFactory.swift */,
 			);
 			path = Network;
@@ -427,7 +430,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D822BDC27966B73007CEDF5 /* Good.swift in Sources */,
 				3D6374E4279C2E3100493927 /* GoodResponse.swift in Sources */,
 				3D822B7327965609007CEDF5 /* ViewController.swift in Sources */,
 				3D822BAB27965FA0007CEDF5 /* ChangeUserDataRequestFactory.swift in Sources */,
@@ -436,17 +438,20 @@
 				3D822B6F27965609007CEDF5 /* AppDelegate.swift in Sources */,
 				3D822BAD27965FB0007CEDF5 /* Auth.swift in Sources */,
 				3D822BAF27965FC7007CEDF5 /* Signup.swift in Sources */,
+				3D59F15227A19E5200D2E201 /* ReviewRequest.swift in Sources */,
 				3D822BC827966129007CEDF5 /* ResponseCodable.swift in Sources */,
 				3D822BCA27966143007CEDF5 /* AbstractRequestFactory.swift in Sources */,
 				3D822BD827966B21007CEDF5 /* GetGood.swift in Sources */,
 				3D822BBB27966093007CEDF5 /* LogoutResult.swift in Sources */,
 				3D822BC1279660D7007CEDF5 /* User.swift in Sources */,
 				3D822BD227966ABC007CEDF5 /* GetCatalogRequestFactory.swift in Sources */,
-				3D822BB927966080007CEDF5 /* LoginResult.swift in Sources */,
+				3D59F15027A19E2800D2E201 /* ReviewResponse.swift in Sources */,
 				3D822BBD279660A4007CEDF5 /* SignupResult.swift in Sources */,
 				3D822BB327966002007CEDF5 /* RequestFactory.swift in Sources */,
 				3D6374E2279C2E1000493927 /* CatalogResponse.swift in Sources */,
+				3D59F14C27A19D5500D2E201 /* ReviewRequestFactory.swift in Sources */,
 				3D822BC627966119007CEDF5 /* ErrorParser.swift in Sources */,
+				3D59F14E27A19DA200D2E201 /* Reviews.swift in Sources */,
 				3D822BD427966ADC007CEDF5 /* GetGoodRequestFactory.swift in Sources */,
 				3D822BA727965F7A007CEDF5 /* AuthRequestFactory.swift in Sources */,
 				3D822BCC27966156007CEDF5 /* RequestRouter.swift in Sources */,
@@ -462,7 +467,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D822B862796560A007CEDF5 /* GBShopTests.swift in Sources */,
 				3D822BCE27966A37007CEDF5 /* ResponseCodableTests.swift in Sources */,
 				3D822BD027966A57007CEDF5 /* RequestsTests.swift in Sources */,
 			);

@@ -20,6 +20,9 @@ class GBShopViewController: UIViewController {
         makeGetCatalogRequest()
         makeGetGoodRequest()
         makeLogoutRequest()
+        makeGetReviewsRequest()
+        makeAddReviewRequest()
+        makeRemoveReviewRequest()
     }
     
     // MARK: - Methods for testing purposes.
@@ -120,5 +123,44 @@ class GBShopViewController: UIViewController {
             }
         }
     }
+    
+    func makeGetReviewsRequest() {
+        let factory = requestFactory.makeReviewsFactory()
+        
+        factory.getReviews(productId: 123) { response in
+            switch response.result {
+            case .success(let result):
+                print(result)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func makeAddReviewRequest() {
+        let factory = requestFactory.makeReviewsFactory()
+        let review = ReviewRequest(reviewText: "Товар — говно! Не берите!", userId: 123, productId: 666)
+        
+        factory.addReview(review: review){ response in
+            switch response.result {
+            case .success(let result):
+                print(result)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
+    
+    func makeRemoveReviewRequest() {
+        let factory = requestFactory.makeReviewsFactory()
+        
+        factory.removeReview(reviewId: 123){ response in
+            switch response.result {
+            case .success(let result):
+                print(result)
+            case .failure(let error):
+                print(error.localizedDescription)
+            }
+        }
+    }
 }
-
